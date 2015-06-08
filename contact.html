@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="portfolio.css"/>
+    <title>Kelvin van der Gaag & Dion Pisas</title>
+</head>
+<body>
+<div class="container">
+<header>
+    <nav>
+        <ul id="topnav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pictures.html">Pictures</a>
+                    <ul>
+                        <li><a href="picdion.html">Pictures Dion</a></li>
+
+                    </ul>
+                </li>
+            <li><a href="faq.html">F.A.Q</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<div class="aside">
+    <nav>
+        <ul id="sidenav">
+            <li><a href="dion.html">Dion</a></li>
+            <li><a href="cv.html">C.V</a></li>
+            <li><a href="zadkine.html">Zadkine</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="title">
+    <h1>Contact</h1>
+</div>
+    <div class="content">
+        <form action="form1b.html" method="post">
+            <fieldset>
+                <legend>PersoonsInfo</legend>
+                <div>
+                    <label for="voornaam">Voornaam:</label>
+                    <input pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" name="voornaam" id="voornaam" type="text" required placeholder="Kees"  value="" />
+                </div>
+                <div>
+                    <label for="achternaam">Achternaam:</label>
+                    <input name="achternaam" type="text" id="achternaam" required="required"/>
+                </div>
+                <div>
+                    <label for="geb_jaar">Geboorte Jaar:</label>
+                    <input name="geb_jaar" id="geb_jaar" type="datetime-local" />
+                </div>
+                <div>
+
+                    <label for="land">Land:</label>
+                    <select id="land" name="land">
+                        <option value="nl">Nederland</option>
+                        <option value="af">Afrika</option>
+                        <option value="po">Polen</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Info</legend>
+                <label for="email">Email:</label>
+                <input name="email" type="email" id="email" required/>
+            </fieldset>
+            <div>
+                <input type="submit" value="Verzenden">
+            </div>
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>Would you like to contact us? then please go to our <a href="contact.html">contact</a> page and fill out your question.
+        also if you prefer to send us an e-mail then do so by click on <a href="mailto:kelvin.zadkine@gmail.com?subject="Website">
+        Send Email</a></p>
+    </div>
+
+    <P>Kelvin van der Gaag & Dion Pisas</P>
+</div>
+
+
+</body>
+</html>
